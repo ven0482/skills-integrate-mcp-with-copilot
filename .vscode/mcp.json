@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "task-tracker": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "src.mcp_server"]
+    }
+  }
+}
